@@ -3,7 +3,7 @@
 1. Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/SamuelDevdas/Study-GPT.git
 ```
 
 2. Create a virtual environment with Python 3.11
