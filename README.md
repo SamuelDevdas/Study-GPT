@@ -48,6 +48,8 @@ streamlit run streamlit_app.py
 
 The app is ready to use and will be available at http://localhost:8502
 
+**You can use the provided "lecture.mdx" as a sample markdown file to test the app.**
+
 7. For BEST RESULTS: Set the model parameters at this location in the code: (venv\Lib\site-packages\embedchain\config\llm\base.py)
 
 ```python
