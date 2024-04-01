@@ -1,9 +1,11 @@
 # Installation and Usage:
 
-1. Clone the repository
+1. Clone the repository and change directory to the project folder
 
 ```bash
 git clone https://github.com/SamuelDevdas/Study-GPT.git
+
+cd .\Study-GPT\
 ```
 
 2. Create a virtual environment with Python 3.11
