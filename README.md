@@ -32,14 +32,23 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Run the script
+
+5. Set api key in the 'set_api_key.py' file
+
+```python
+# Replace this with your OpenAI key, needs to run only once
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY_HERE"
+```
+
+6. Run the app script
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
+The app is ready to use and will be available at http://localhost:8502
 
-6. Set the model parameters at this location in the code: (venv\Lib\site-packages\embedchain\config\llm\base.py)
+7. For BEST RESULTS: Set the model parameters at this location in the code: (venv\Lib\site-packages\embedchain\config\llm\base.py)
 
 ```python
 MODEL PARAMETERS:
