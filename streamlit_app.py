@@ -110,7 +110,7 @@ with st.spinner("Wait for it..."):
 
     # Display the response to the user
     if submit_button and answer:
-        with st.container(height=100):
+        with st.container(height=150):
             st.write("##### Here is the response to your query:")
             st.write(answer)
         st.success("Received Reply!")
