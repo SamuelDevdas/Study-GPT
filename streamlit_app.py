@@ -52,7 +52,7 @@ if file_uploaded is not None:
 if file_uploaded:
     st.write("##### Here is the document you uploaded:")
 
-    with st.container(height=75):
+    with st.container(height=100):
         st.write(stringio)
 
 #####################################################################
@@ -110,7 +110,7 @@ with st.spinner("Wait for it..."):
 
     # Display the response to the user
     if submit_button and answer:
-        with st.container(height=150):
+        with st.container(height=350):
             st.write("##### Here is the response to your query:")
             st.write(answer)
         st.success("Received Reply!")
