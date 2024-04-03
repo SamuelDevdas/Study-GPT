@@ -1,0 +1,4 @@
+
+What were the topics or keywords mentioned by the lecturer?
+
+Create a json about the sentiments of each section of the document, and another json having all metadata info of the documents i.e word count, sentiment, topics, keywords, etc.
