@@ -33,11 +33,10 @@ pip install -r requirements.txt
 ```
 
 
-5. Set api key in the 'set_api_key.py' file
+5. Create a .env file and Set api key as follows:
 
 ```python
-# Replace this with your OpenAI key, needs to run only once
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY_HERE"
+OPENAI_API_KEY=sk-<your-api-key>
 ```
 
 6. Run the app script
