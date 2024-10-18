@@ -4,6 +4,9 @@ import streamlit.components.v1 as components
 from embedchain import App
 from io import StringIO
 
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # Set main page config
 st.set_page_config(
